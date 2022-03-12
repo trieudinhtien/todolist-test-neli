@@ -1,0 +1,55 @@
+.tasklist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.tasklist ul{
+    list-style: none;
+    width: 60%;
+}
+
+.tasklist ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+
+}
+.tasklist ul li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.tasklist ul li .isComplete{
+    visibility:  visible;
+    color: green;
+    margin-right: 10px;
+}
+.tasklist ul li .checkicon{
+    visibility:  hidden;
+    margin-right: 10px;
+}
+.tasklist ul li p{
+    margin: 0px;
+}
+.tasklist ul li p.taskcomplete{
+    text-decoration: line-through;
+}
+
+.tasklist ul li .close, .tasklist ul li .edit{
+    margin-left: 10px;
+}
+.tasklist ul li .close:hover{
+    background-color: brown;
+    border-radius: 5px;
+}
+.tasklist ul li .edit:hover{
+    background-color: cadetblue;
+    border-radius: 5px;
+
+}

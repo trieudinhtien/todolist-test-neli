@@ -1,0 +1,27 @@
+.addtask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.addtask input {
+    width: 400px;
+    font-size: 20px;
+    border:none;
+    border-bottom: 2px solid black;
+    padding: 12px;
+    outline: none;
+}
+
+
+.addtask .btn-add{
+    font-size: 20px;
+    background-color: brown;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 16px;
+    color: whitesmoke;
+}
